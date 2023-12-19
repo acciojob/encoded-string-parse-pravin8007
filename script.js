@@ -1,7 +1,5 @@
 function parseCode(encodedString) {
-  var arr = [firstName, lastName, id] ;
-	 arr = encodedString.split("000");
-	
+  const [firstName, lastName, id] = encodedString.split("000");
 
   return {
     firstName: firstName,
@@ -11,7 +9,7 @@ function parseCode(encodedString) {
 }
 
 // Examples
-// console.log(parseCode("John000Doe000123"));
+console.log(parseCode("John000Doe000123"));
 // Output: { firstName: "John", lastName: "Doe", id: "123" }
 
 console.log(parseCode("michael0smith004331"));
