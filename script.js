@@ -9,7 +9,7 @@ function parseCode(encodedString) {
 }
 
 // Examples
-console.log(parseCode("John000Doe000123"));
+// console.log(parseCode("John000Doe000123"));
 // Output: { firstName: "John", lastName: "Doe", id: "123" }
 
 console.log(parseCode("michael0smith004331"));
